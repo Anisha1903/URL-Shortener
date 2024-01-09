@@ -3,9 +3,11 @@
 
 Shorten long URLs effortlessly with this URL Shortener, crafted with Node.js and powered by MongoDB. Efficiently transform lengthy web addresses into concise, shareable links, enhancing accessibility and convenience.
 
-## Demo
+## Screenshot
 
-https://urlshortner-5ape.onrender.com
+<img src="/screenshot1.JPG" alt="URL Shortener"/>
+
+<img src="/screenshot2.JPG" alt="URL Shortener"/>
 
 ## Features
 
