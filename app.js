@@ -57,7 +57,7 @@ app.post('/', async (req, res) => {
         } else {
             // Display an error for invalid URL lengths
             const error = "Short URLs are restricted! Please provide a long URL exceeding 120 characters in length, such as \
-             'https://example.com/great-deals-on-products-and-services'.";
+            'https://www.examplelongurlforcharactercount.com/path/subpath/page12345?key1=value1&param2=data2#section-title-and-more-text-here'.";
             res.render('index', { error: error, newURL: {} });
         }
     } else {
