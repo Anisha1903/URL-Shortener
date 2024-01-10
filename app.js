@@ -56,7 +56,7 @@ app.post('/', async (req, res) => {
             }
         } else {
             // Display an error for invalid URL lengths
-            const error = "Short URLs are restricted; kindly provide a long URL that is less than 120 characters in length, such as \
+            const error = "Short URLs are restricted! Please provide a long URL exceeding 120 characters in length, such as \
              'https://example.com/great-deals-on-products-and-services'.";
             res.render('index', { error: error, newURL: {} });
         }
